@@ -20,7 +20,7 @@ def scrapeposts():
     api_url="https://fresh-linkedin-profile-data.p.rapidapi.com/get-profile-posts"
     querystring = {"linkedin_url":{purl},"type":"posts"}
     headers = {
-	"X-RapidAPI-Key": "7ba22a70fdmsh22b9fed712f13ebp1603f3jsn061b0fca54a9",
+	"X-RapidAPI-Key": "",
 	"X-RapidAPI-Host": "fresh-linkedin-profile-data.p.rapidapi.com"
      }
     api_res = requests.get(api_url, headers=headers, params=querystring)
